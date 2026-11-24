@@ -9,13 +9,17 @@
 *{box-sizing:border-box}
 html{min-height:100%}
 body{margin:0;min-height:100vh;padding:34px 18px;display:grid;place-items:center;font-family:"Helvetica Neue",Arial,sans-serif;color:#0b2a4a;
-background:linear-gradient(180deg,#0e5e9b 0%,#2389db 30%,#1da3ec 52%,#5abcd9 78%,#74ccf4 100%);background-attachment:fixed;position:relative;overflow-x:hidden}
+background:
+radial-gradient(circle at 15% 8%,#ffffffaa 0,#ffffff00 32%),
+radial-gradient(circle at 90% 30%,#bfe3f6 0,#bfe3f600 40%),
+radial-gradient(circle at 10% 95%,#6fb4de 0,#6fb4de00 45%),
+linear-gradient(170deg,#d3eaf7 0%,#97cdea 48%,#5ca4d4 100%);background-attachment:fixed;position:relative;overflow-x:hidden}
 .bubble{position:fixed;border-radius:50%;background:radial-gradient(circle at 30% 30%,#ffffffcc,#ffffff22 60%,#ffffff10);border:1px solid #ffffff88;pointer-events:none}
 .b1{width:120px;height:120px;top:6%;right:-30px}.b2{width:70px;height:70px;top:46%;left:-20px}.b3{width:150px;height:150px;bottom:-40px;right:12%}.b4{width:36px;height:36px;top:22%;left:12%}
 main{position:relative;width:min(100%,400px);text-align:center}
 .mark{display:block;width:180px;height:180px;margin:0 auto 24px;border-radius:50%;object-fit:cover;border:4px solid #ffffffd9;box-shadow:0 10px 28px #0b2a4a30,0 0 0 8px #ffffff40}
-h1{margin:0;font-size:32px;font-weight:700;letter-spacing:1.5px;color:#fff;text-shadow:0 2px 12px #0b2a4a55}
-.sub{margin:14px 0 34px;font-size:13px;font-weight:200;letter-spacing:4px;line-height:1.6;color:#e6f6ff;text-align:center;padding-left:4px}
+h1{margin:0;font-size:32px;font-weight:700;letter-spacing:1.5px;color:#0b2a4a}
+.sub{margin:14px 0 34px;font-size:13px;font-weight:200;letter-spacing:4px;line-height:1.6;color:#12406b;text-align:center;padding-left:4px}
 .note{margin:0 0 30px;font-size:13px;font-weight:200;letter-spacing:1.5px;color:#26507a;text-align:center}
 .links{display:grid;gap:14px}
 a{display:flex;align-items:center;gap:16px;text-decoration:none;color:#0b2a4a;padding:12px 20px 12px 12px;border-radius:999px;font-size:15px;font-weight:600;letter-spacing:1.5px;
@@ -24,7 +28,7 @@ a:active,a:hover{transform:translateY(-2px);box-shadow:0 14px 30px #0b2a4a2b,ins
 .icon{flex:none;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:#0b2a4a;color:#e4f5ff}
 .icon svg{width:22px;height:22px;fill:currentColor}
 .label{flex:1;text-align:left}
-footer{margin-top:30px;font-size:10px;font-weight:300;letter-spacing:3px;color:#0b2a4a}
+footer{margin-top:30px;font-size:10px;font-weight:300;letter-spacing:3px;color:#26507a}
 </style></head>
 <body>
 <i class="bubble b1"></i><i class="bubble b2"></i><i class="bubble b3"></i><i class="bubble b4"></i>
